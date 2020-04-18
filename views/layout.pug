@@ -9,22 +9,25 @@ html
     meta(name="description" content="Telephone with pictures")
 
     // Bootstrap CSS
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+    //link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
     // SweetAlert for Bootstrap CSS
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css')
+    //link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css')
+    link(rel='stylesheet', href='/css/sweetalert.min.css')
     // Slabo Font
-    link(href='https://fonts.googleapis.com/css?family=Slabo+27px', rel='stylesheet', type='text/css')
+    //link(href='https://fonts.googleapis.com/css?family=Slabo+27px', rel='stylesheet', type='text/css')
+    //link(rel='stylesheet', href='/css/slabo.css')
     // Drawphone CSS
     link(rel='stylesheet', href='/css/style.css')
       
     // Google Analytics
-    script.
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-82444397-2', 'auto');
-      ga('send', 'pageview');
+    // script.
+    //  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    //  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    //  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    //  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    //  ga('create', 'UA-82444397-2', 'auto');
+    //  ga('send', 'pageview');
 
   body
     .container.text-center
@@ -38,15 +41,21 @@ html
           a(href='https://github.com/tannerkrewson/drawphone', target='_blank') View on GitHub
     br
     // jQuery
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    // script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='/js/jquery.min.js')
     // Bootstrap JS
-    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+    // script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+    script(src='/js/bootstrap.min.js')
     // Socket.IO
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js')
+    // script(src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js')
+    script(src='/js/socket.io.js')
     // Fabric.js
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/fabric.js/2.3.2/fabric.min.js', integrity='sha256-JQa3Df+83QeB/XVnQYWk9Ns3v4IJ8gnWhgGv1ToHQGg=', crossorigin='anonymous')
+    // script(src='https://cdnjs.cloudflare.com/ajax/libs/fabric.js/2.3.2/fabric.min.js', integrity='sha256-JQa3Df+83QeB/XVnQYWk9Ns3v4IJ8gnWhgGv1ToHQGg=', crossorigin='anonymous')
+    script(src='/js/fabric.min.js')
     // javascript-canvas-to-blob
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.3.0/js/canvas-to-blob.min.js')
+    // script(src='https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.3.0/js/canvas-to-blob.min.js')
+    script(src='/js/canvas-to-blob.min.js')
     // SweetAlert for Bootstrap JS
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js')
+    // script(src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js')
+    script(src='/js/sweetalert.min.js')
     block js
